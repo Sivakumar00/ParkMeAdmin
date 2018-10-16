@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "739453356654",
+    "firebase_url": "https://park-me-15408.firebaseio.com",
+    "project_id": "park-me-15408",
+    "storage_bucket": "park-me-15408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739453356654:android:22c11ae04a4ceae3",
+        "android_client_info": {
+          "package_name": "com.parkme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739453356654-g4gtcs8o78hunda7tucfitc8md9p6lk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6oo_V6N_ijWcmGErPMJXnITUGgOWZl5Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739453356654:android:0a027fe1fac471f3",
+        "android_client_info": {
+          "package_name": "com.parkme.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739453356654-g4gtcs8o78hunda7tucfitc8md9p6lk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6oo_V6N_ijWcmGErPMJXnITUGgOWZl5Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

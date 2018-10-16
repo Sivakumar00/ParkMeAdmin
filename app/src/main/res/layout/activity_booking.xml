@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:id="@+id/txt_seat"
+        android:text="Select seats"
+        android:textStyle="bold" />
+    <by.anatoldeveloper.hallscheme.view.ZoomableImageView
+        android:id="@+id/zoomable_image"
+        android:layout_below="@id/txt_seat"
+        android:layout_width="match_parent"
+        android:layout_height="450dp" />
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/btnBook"
+     android:background="@drawable/btn_borders"
+     android:layout_alignParentBottom="true"
+     android:text="Confirm"
+     android:layout_below="@id/zoomable_image"
+     android:layout_marginTop="10dp"
+     />
+
+</RelativeLayout>
